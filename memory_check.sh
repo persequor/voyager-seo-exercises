@@ -7,7 +7,7 @@ do
                 w) WARNING=${OPTARG};;
                 e) EMAIL=${OPTARG};;
                 :)  echo "Error: -$OPTARG requires an argument" 
-                    exit 1
+                    exit
                     ;;
         esac
 done
